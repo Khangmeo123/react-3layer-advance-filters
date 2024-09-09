@@ -1112,6 +1112,11 @@ cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
+dayjs@^1.11.13:
+  version "1.11.13"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.13.tgz#92430b0139055c3ebb60150aa13e860a4b5a366c"
+  integrity sha512-oaMBel6gjolK862uaPQOVTA7q3TZhuSvuMQAAglQDOWYO9A91IrAOUJEyKVlqJlHE0vq5p5UXxzdPfMH/x6xNg==
+
 debug@^4.1.0, debug@^4.1.1, debug@^4.3.1:
   version "4.3.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.6.tgz#2ab2c38fbaffebf8aa95fdfe6d88438c7a13c52b"
@@ -2124,14 +2129,15 @@ pure-rand@^6.0.0:
   resolved "https://registry.yarnpkg.com/pure-rand/-/pure-rand-6.1.0.tgz#d173cf23258231976ccbdb05247c9787957604f2"
   integrity sha512-bVWawvoZoBYpp6yIoQtQXHZjmz35RSVHnUOTefl8Vcjr8snTPY1wnpSPMWekcFwbxI6gtmT7rSYPFvz71ldiOA==
 
-react-3layer-decorators@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/react-3layer-decorators/-/react-3layer-decorators-1.0.2.tgz#a7ffca3e845166b9ac82ada461538a0214879e0a"
-  integrity sha512-/sJkKSmG+FRh/fPT+AsdWKQFFyhtpDt0r9hhJw+bA2dhxONMRByJO37HnOthfZ2AGcAR+qwK2NqDB/7XIDy+tg==
+react-3layer-decorators@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/react-3layer-decorators/-/react-3layer-decorators-1.0.3.tgz#0a10ee5336cc8d850e936215751b60c773e7908b"
+  integrity sha512-wTb01gTxuWuogVOA7ME8srq2PsMF5PrgiOWaQOuZo8hZpjFfOaF3sS6SAD8uvj2UjqQfykyBFS76pM5njIA4Xg==
   dependencies:
     "@babel/plugin-proposal-decorators" "^7.24.7"
     "@babel/plugin-syntax-decorators" "^7.24.7"
     "@babel/plugin-transform-class-properties" "^7.25.4"
+    dayjs "^1.11.13"
     moment "^2.30.1"
     reflect-metadata "^0.2.2"
     rollup "^4.21.0"

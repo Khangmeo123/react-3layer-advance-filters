@@ -1,29 +1,50 @@
-import type { Moment } from 'moment';
 import { AdvancedFilter } from './AdvancedFilter';
-import { AutoModel, MomentField } from 'react-3layer-decorators';
+import { AutoModel, DayjsField } from 'react-3layer-decorators';
+import { Dayjs } from 'dayjs';
 
 @AutoModel()
 export class DateFilter
   extends AdvancedFilter
-  implements AdvancedFilter.NumberFilter<Moment>
+  implements AdvancedFilter.NumberFilter<Dayjs>
 {
-  @MomentField()
-  public equal?: Moment;
+  // @MomentField()
+  // public equal?: Moment;
 
-  @MomentField()
-  public greater?: Moment;
+  // @MomentField()
+  // public greater?: Moment;
 
-  @MomentField()
-  public greaterEqual?: Moment;
+  // @MomentField()
+  // public greaterEqual?: Moment;
 
-  @MomentField()
-  public less?: Moment;
+  // @MomentField()
+  // public less?: Moment;
 
-  @MomentField()
-  public lessEqual?: Moment;
+  // @MomentField()
+  // public lessEqual?: Moment;
 
-  @MomentField()
-  public notEqual?: Moment;
+  // @MomentField()
+  // public notEqual?: Moment;
+
+
+  @DayjsField()
+  public equal?: Dayjs;
+
+  @DayjsField()
+  public greater?: Dayjs;
+
+  @DayjsField()
+  public greaterEqual?: Dayjs;
+
+  @DayjsField()
+  public less?: Dayjs;
+
+  @DayjsField()
+  public lessEqual?: Dayjs;
+
+  @DayjsField()
+  public notEqual?: Dayjs;
+
+  
 
   constructor(fields?: Partial<DateFilter> | undefined) {
     super();
