@@ -1,8 +1,8 @@
 
-import { AutoModel, Field, List } from 'react-3layer-decorators';
+import { Field, List } from 'react-3layer-decorators';
 import { AdvancedFilter } from './AdvancedFilter';
 
-@AutoModel()
+
 export class GuidFilter
   extends AdvancedFilter
   implements AdvancedFilter.IdFilter<AdvancedFilter.Guid>

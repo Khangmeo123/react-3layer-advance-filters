@@ -1,8 +1,8 @@
 
-import { AutoModel, Field } from 'react-3layer-decorators';
+import { Field } from 'react-3layer-decorators';
 import { AdvancedFilter } from './AdvancedFilter';
 
-@AutoModel()
+
 export class StringFilter
   extends AdvancedFilter
   implements AdvancedFilter.StringFilter

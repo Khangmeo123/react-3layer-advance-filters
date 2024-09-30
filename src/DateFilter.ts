@@ -1,8 +1,7 @@
 import { AdvancedFilter } from './AdvancedFilter';
-import { AutoModel, DayjsField } from 'react-3layer-decorators';
+import { DayjsField } from 'react-3layer-decorators';
 import { Dayjs } from 'dayjs';
 
-@AutoModel()
 export class DateFilter
   extends AdvancedFilter
   implements AdvancedFilter.NumberFilter<Dayjs>

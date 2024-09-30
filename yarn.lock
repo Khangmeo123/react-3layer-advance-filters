@@ -2129,10 +2129,10 @@ pure-rand@^6.0.0:
   resolved "https://registry.yarnpkg.com/pure-rand/-/pure-rand-6.1.0.tgz#d173cf23258231976ccbdb05247c9787957604f2"
   integrity sha512-bVWawvoZoBYpp6yIoQtQXHZjmz35RSVHnUOTefl8Vcjr8snTPY1wnpSPMWekcFwbxI6gtmT7rSYPFvz71ldiOA==
 
-react-3layer-decorators@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/react-3layer-decorators/-/react-3layer-decorators-1.0.3.tgz#0a10ee5336cc8d850e936215751b60c773e7908b"
-  integrity sha512-wTb01gTxuWuogVOA7ME8srq2PsMF5PrgiOWaQOuZo8hZpjFfOaF3sS6SAD8uvj2UjqQfykyBFS76pM5njIA4Xg==
+react-3layer-decorators@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/react-3layer-decorators/-/react-3layer-decorators-1.0.4.tgz#375587ff65b5eb90d1ddd4bdcdc5a4024cb62743"
+  integrity sha512-awub6D/RzYNM8RdT1+1+Kk4sdWz4mez77+5o9GSFJglMclzDvCxJNxIqhcIqquZ0OUENHRWOMCGLaO1rZw799g==
   dependencies:
     "@babel/plugin-proposal-decorators" "^7.24.7"
     "@babel/plugin-syntax-decorators" "^7.24.7"

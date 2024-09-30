@@ -1,6 +1,6 @@
 import { AdvancedFilter } from './AdvancedFilter';
-import {  AutoModel, Field, List } from 'react-3layer-decorators';
-@AutoModel()
+import {  Field, List } from 'react-3layer-decorators';
+
 export class IdFilter
   extends AdvancedFilter
   implements AdvancedFilter.IdFilter<number>
